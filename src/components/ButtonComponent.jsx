@@ -1,6 +1,6 @@
 const ButtonComponent = (props)=> {
     return <>
-    <button>{props.text}</button>
+    <button type="button" class="btn btn-dark">{props.text}</button>
     </>
 }
 
